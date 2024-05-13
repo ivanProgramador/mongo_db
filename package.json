@@ -1,0 +1,22 @@
+{
+  "name": "mongo_db",
+  "version": "1.0.0",
+  "description": "estudo do mongo bd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanProgramador/mongo_db.git"
+  },
+  "author": "Ivan Rodrigues",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivanProgramador/mongo_db/issues"
+  },
+  "homepage": "https://github.com/ivanProgramador/mongo_db#readme",
+  "dependencies": {
+    "mongoose": "^8.3.4"
+  }
+}
