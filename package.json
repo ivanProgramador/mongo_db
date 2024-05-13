@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ivanProgramador/mongo_db#readme",
   "dependencies": {
-    "mongoose": "^8.3.4"
+    "mongoose": "^8.3.4",
+    "nodemon": "^3.1.0"
   }
 }
