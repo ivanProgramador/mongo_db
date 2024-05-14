@@ -1,5 +1,3 @@
-
-
 const mongoose = require("mongoose");
 
 const articleModel = new mongoose.Schema({
