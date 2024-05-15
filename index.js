@@ -8,6 +8,13 @@ mongoose.connect("mongodb://127.0.0.1:27017/aprendendoMongo",{useNewUrlParser:tr
 const Article = mongoose.model("Article",articleModel);
 
 
+Article.findByIdAndUpdate('664349cf3c8d25e868cc64e1',{title:'Vue do Zero',author:'Ivan',body:'teste'}).then(articles=>{
+    console.log(articles);
+}).catch(err=>{
+    console.log(err);
+});
+
+
 
 
 
