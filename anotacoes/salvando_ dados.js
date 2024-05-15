@@ -11,6 +11,7 @@ mongoose.connect("mongodb://127.0.0.1:27017/aprendendoMongo",{useNewUrlParser:tr
 /*
 Aqui o model se torna uma especie de classe e os registros do banco são como 
 objetos criados com base nela   
+ele sempre coloca um s no fim de acada colections criada.
 */
 const Article = mongoose.model("Article",articleModel);
 
