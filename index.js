@@ -8,16 +8,12 @@ mongoose.connect("mongodb://127.0.0.1:27017/aprendendoMongo",{useNewUrlParser:tr
 const Article = mongoose.model("Article",articleModel);
 
 
+Article.find({}).then(articles=>{
+   console.log(articles);
+}).catch(err=>{
+  console.log(err);
+})
 
-const artigo = new Article({title:'desevolvimento',author:"Ivan",body:"Esse o body do artigo",});
-
-
-
-artigo.save().then(()=>{
-    console.log("Artigo salvo");
-   }).catch(err =>{
-     console.log(err);
-   });
 
 
 
