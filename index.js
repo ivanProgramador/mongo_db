@@ -8,11 +8,6 @@ mongoose.connect("mongodb://127.0.0.1:27017/aprendendoMongo",{useNewUrlParser:tr
 const Article = mongoose.model("Article",articleModel);
 
 
-Article.find({'author':'Ivan'}).then(articles=>{
-   console.log(articles);
-}).catch(err=>{
-  console.log(err);
-})
 
 
 
